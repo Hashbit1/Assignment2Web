@@ -1,0 +1,38 @@
+<%- include('partials/header') %>
+
+<h1 class="text-center text-primary mb-4">Contact Me</h1>
+
+<div class="row justify-content-center">
+  <div class="col-md-8 col-lg-6">
+    <div class="card shadow-lg border-0 p-4 rounded-4">
+      <p class="text-center mb-3">
+        <i class="fa-solid fa-envelope text-primary"></i>
+        <a href="mailto:hashim.khan1@ontariotechu.net" class="text-decoration-none text-dark">
+          hashim.khan1@ontariotechu.net
+        </a>
+      </p>
+
+      <form class="mt-3">
+        <div class="mb-3">
+          <label class="form-label fw-semibold">Full Name</label>
+          <input type="text" class="form-control" placeholder="Enter your full name" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label fw-semibold">Email Address</label>
+          <input type="email" class="form-control" placeholder="Enter your email" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label fw-semibold">Message</label>
+          <textarea class="form-control" rows="4" placeholder="Type your message here..." required></textarea>
+        </div>
+        <div class="text-center">
+          <button type="button" class="btn btn-primary px-4" disabled>
+            <i class="fa-solid fa-paper-plane me-2"></i>Send (UI Only)
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<%- include('partials/footer') %>

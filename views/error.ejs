@@ -1,0 +1,20 @@
+<!-- error.ejs -->
+<!-- Author: Hashim Khan -->
+<!-- Handles and displays any server-side or routing errors -->
+
+<%- include('partials/header') %>
+
+<main class="container text-center mt-5">
+  <h1 class="display-5 text-danger fw-bold">Oops! Something went wrong 😕</h1>
+  <p class="lead text-secondary"><%= message %></p>
+
+  <% if (error && error.status) { %>
+    <p>Status Code: <strong><%= error.status %></strong></p>
+  <% } %>
+
+  <a href="/" class="btn btn-primary mt-4">
+    <i class="fa-solid fa-house"></i> Back to Home
+  </a>
+</main>
+
+<%- include('partials/footer') %>
