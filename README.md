@@ -12,10 +12,10 @@ https://github.com/Hashbit1/Assignment2Web
 Render Live Link:
 https://assignment2web.onrender.com
 
-
 Referneces:
 - https://medium.com/swlh/how-to-create-your-first-login-page-with-html-css-and-javascript-602dd71144f1
 -https://www.w3schools.com/js/ 
 - https://medium.com/@ukaohachizoba6/how-to-build-a-responsive-navigation-bar-using-html-css-and-javascript-330ee12ff686
 - https://learn.ontariotechu.ca/courses/36318/external_tools/3120
-
+- https://dev.to/media_geneous_bb80d6b5563/how-to-build-a-portfolio-website-with-html-css-and-javascript-50jl
+-https://www.geeksforgeeks.org/javascript/how-to-create-a-portfolio-website-using-html-css-and-javascript/
